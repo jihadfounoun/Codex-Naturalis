@@ -1,30 +1,25 @@
-# CodexNaturalis
 
-## Team
+![Codex Naturalis Gameplay](CodexNaturalis/immages/codex_naturalis.jpg)
+# Codex Naturalis
+This project is a software implementation of the **Codex Naturalis** board game, developed as part of the Software Engineering final project for the academic year 2023-2024. It includes both simplified and complete rule sets, and was designed as a client-server application using the **Model-View-Controller** architecture.
 
-Amina El Kharouai [@AminaElKharouai](https://github.com/AminaElKharouai)<br>
-Jihad Founoun [@jihadfounoun](https://github.com/jihadfounoun)<br>
-Mattia Locatelli [@MattiaLocatelli](https://github.com/MattiaLocatelli)<br>
-Emanuele Laico [@emanuelelaico](https://github.com/emanuelelaico)<br>
+## Application Features
 
-## Progress
+The application incorporates the following key elements:
 
-| Functionality    |                       State                       |
-|:-----------------|:-------------------------------------------------:|
-| Simplified rules | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| Complete rules   | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| Socket           | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| RMI              | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| CLI              | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| GUI              | ![#c5f015](https://placehold.it/15/f03c15/f03c15) |
-| Disconnections   | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| Multiple games   | ![#c5f015](https://placehold.it/15/44bb44/44bb44) |
-| Persistence      | ![#c5f015](https://placehold.it/15/f03c15/f03c15) |
-| Chat             | ![#c5f015](https://placehold.it/15/f03c15/f03c15) |
+1. **Communication Protocols:**  
+   Supports both **socket** and **RMI** protocols.
+
+2. **User Interface:**  
+   A fully functional **TUI (Textual User Interface)**.
+
+3. **Advanced Functionalities:**  
+   **Disconnection Resilience:** Players can seamlessly reconnect to ongoing games after a disconnection, with the game pausing if only one player remains connected.  
+   **Concurrent Games:** A single server instance can manage multiple games simultaneously.
 
 ## Setup
 
-- In the [Jar](deliverables/jar) folder there are two jar files, one to set the Server up, and the
+- In the [Jar](CodexNaturalis/deliverables/jar) folder there are two jar files, one to set the Server up, and the
   other one to start the Client.
 - The Server can be run with the following command:
     ```
@@ -55,3 +50,9 @@ Emanuele Laico [@emanuelelaico](https://github.com/emanuelelaico)<br>
 **Cranio Creations**: https://www.craniocreations.it/
 
 **Politecnico di Milano**: https://www.polimi.it/
+
+## Team
+
+Amina El Kharouai [@AminaElKharouai](https://github.com/AminaElKharouai)<br>
+Jihad Founoun [@jihadfounoun](https://github.com/jihadfounoun)<br>
+Mattia Locatelli [@MattiaLocatelli](https://github.com/MattiaLocatelli)<br>
