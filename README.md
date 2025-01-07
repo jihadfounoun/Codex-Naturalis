@@ -53,6 +53,6 @@ The application incorporates the following key elements:
 
 ## Team
 
-Amina El Kharouai [@AminaElKharouai](https://github.com/AminaElKharouai)<br>
-Jihad Founoun [@jihadfounoun](https://github.com/jihadfounoun)<br>
-Mattia Locatelli [@MattiaLocatelli](https://github.com/MattiaLocatelli)<br>
+[@jihadfounoun](https://github.com/jihadfounoun)<br>
+[@MattiaLocatelli](https://github.com/MattiaLocatelli)<br>
+[@AminaElKharouai](https://github.com/AminaElKharouai)<br>
